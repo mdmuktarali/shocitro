@@ -108,6 +108,7 @@
 .post_card{
     background: rgba(213, 213, 213, 0.62) !important;
     margin-bottom: 20px;
+    transition:;
 }
 .post_section{
     margin-top:20px;
@@ -154,8 +155,7 @@
     text-align:center;
 }
 .book_rating{
-    margin-top: 20px;
-    margin-bottom: 20px;
+
 }
 .book_rating ul li a i{
     color: #fdb813;
@@ -271,7 +271,7 @@ height: 240px;
 .single_new_collection:hover{
     border:10px solid #444;
 }
-.single_new_collection a{}
+
 .single_new_collection a img{
     width: 130px;
 }
@@ -288,6 +288,64 @@ height: 240px;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.62);
 }
 
+/*new css*/
+.books_area_bg{
+    background:green;
+    height:100px;
+}
+.books_area{
+    position:relative;
+    margin-bottom: 32px;
+    border-bottom:1px dashed #000;
+    padding-bottom:32px;
+}
+.books_area:last-child{
+    border-bottom:none;
+}
+.books_display_area{
+    position:relative;
+}
+.books_single{
+    background:red;
+    width:100%;
+    height:80px;
+}
+.books_display{
+
+}
+.books_display img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.15);
+}
+.books_display img:hover{
+
+}
+.left_books_description{
+    position: relative;
+    top: 35%;
+    background: #e04028;
+    width: 100%;
+    height: 304px;
+}
+.books_bg{
+    background: #e04028;
+    height: 297px;
+    width: 100%;
+    position: absolute;
+    top: 34%;
+    border-bottom: 50px solid #4CAF50;
+    border-top: 50px solid #4caf50;
+}
+.books_content{
+
+}
+.left_books_description h1{
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+    padding-top: 15px;   
+}
 
 
 
