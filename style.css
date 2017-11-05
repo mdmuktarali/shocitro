@@ -63,7 +63,7 @@
     color:#fff !important;
 }
 .header_section{
-    background: rgb(69, 69, 69);
+    background: rgb(215, 25, 33);
     margin-top: 15px;
 }
 .menu>.bg-light{
@@ -275,14 +275,18 @@ height: 240px;
 .single_new_collection a img{
     width: 130px;
 }
-.new_collection_title{}
+.new_collection_title{
+    text-align:center;
+}
 .new_collection_title h2{
     font-family: 'Oxygen', sans-serif;
-    font-size: 25px;
+    font-size: 45px;
     margin-top: 20px;
     margin-bottom: 24px;
     border-bottom: 2px solid #e5e5e5;
-    padding-bottom: 8px;   
+    padding-bottom: 45px;
+    padding-top: 45px;
+    color: #444; 
 }
 .post_card:hover{
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.62);
@@ -328,15 +332,17 @@ height: 240px;
     background: #e04028;
     width: 100%;
     height: 304px;
+    border-top: 3px solid #fff;
+    border-bottom: 4px solid #fff;
 }
 .books_bg{
-    background: #e04028;
+    background: rgba(0, 0, 0, 0.72);
     height: 297px;
     width: 100%;
     position: absolute;
     top: 34%;
-    border-bottom: 50px solid #4CAF50;
-    border-top: 50px solid #4caf50;
+    border-bottom: 133px solid rgba(253, 184, 19, 0.79);
+    filter: blur(0.5px);
 }
 .books_content{
 
@@ -344,8 +350,47 @@ height: 240px;
 .left_books_description h1{
     color: #fff;
     font-family: 'Oxygen', sans-serif;
-    padding-top: 15px;   
+    padding-top: 15px;
+    font-size: 50px;  
 }
+.load_more{
+    text-align: center;
+    border-top: 1px dashed #444;
+}
+.load_more h3{
+    color: #fdb813;
+    background: #444;
+    padding: 15px 15px;
+    border-radius: 0px 0px 75px 75px;
+    cursor: pointer;
+}
+.single_images_like_this{
+    border: 2px solid #444;
+}
+.single_images_like_this img{
+    width: 100%;
+}
+.row_space{
+    margin:10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
