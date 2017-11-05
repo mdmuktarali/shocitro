@@ -373,7 +373,13 @@ height: 240px;
 .row_space{
     margin:10px 0px;
 }
+.featured_books{
 
+    margin-bottom: 20px;
+}
+.featured_books img{
+    width:100%;
+}
 
 
 
